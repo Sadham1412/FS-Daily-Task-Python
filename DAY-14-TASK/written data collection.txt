@@ -1,0 +1,60 @@
+
+PYTHON COLLECTION DATATYPES
+-----------------------------
+
+1. LIST
+-----------------------------------------
+- Stores multiple values.
+- Maintains insertion order.
+- Values can be changed.
+- Duplicate values are allowed.
+- Supports indexing and slicing.
+
+2. TUPLE
+-----------------------------------------
+- Stores multiple values.
+- Maintains insertion order.
+- Values cannot be changed.
+- Duplicate values are allowed.
+- Supports indexing and slicing.
+
+3. SET
+-----------------------------------------
+- Stores multiple values.
+- Does not maintain order.
+- Values can be changed.
+- Duplicate values are not allowed.
+- Does not support indexing.
+
+4. DICTIONARY
+-----------------------------------------
+- Stores data as key-value pairs.
+- Maintains insertion order.
+- Values can be changed.
+- Keys must be unique.
+- Access values using keys.
+
+COMPARISON TABLE
+------------------
+DETAILED COMPARISON TABLE
+-------------------------
+
+Feature             List      Tuple     Set       Dictionary
+-------------------------------------------------------------
+Ordered             Yes       Yes       No        Yes
+Changeable          Yes       No        Yes       Yes
+Duplicates          Yes       Yes       No        Keys No
+Indexing            Yes       Yes       No        By key
+Slicing             Yes       Yes       No        No
+Unique Values       No        No        Yes       Keys Yes
+Stores Mixed Data   Yes       Yes       Yes       Yes
+Mutable             Yes       No        Yes       Yes
+Access Speed        Fast      Fast      Very Fast Very Fast
+Memory Usage        More      Less      Medium    More
+Use for Fixed Data  No        Yes       No        No
+Use for Unique Data No        No        Yes       No
+Key-Value Support   No        No        No        Yes
+Add Elements        Yes       No        Yes       Yes
+Remove Elements     Yes       No        Yes       Yes
+Best Use            General   Fixed     Unique    Structured
+                    Data      Data      Data      Data
